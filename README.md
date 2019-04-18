@@ -1,12 +1,7 @@
 Title: Graph-based RGB-D Image Segmentation Using Color-directional-region Merging
 
-If you use this method in your research please cite the Paper
-@inproceedings{Pan, 
-author = {X. {Pan} and Z. {Zhang} and Y. {Liu} and C. {Yang} and Q. {Chen} and L. {Cheng} and J. {Lin} and R. {Chen}}, 
-title={Graph-based RGB-D Image Segmentation Using Color-directional-region Merging}, 
-year={2019}, 
-pages={2417-2421}, 
-}
+If you use this method in your research please cite the Paper:
+   [1] X. Pan, Z. Zhang, Y. Liu, C. Yang, Q. Chen, L. Cheng, J. Lin, and R. Chen, "Graph-based RGB-D Image Segmentation Using Color-directional-region Merging," in 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), May 2019, pp.2417-2421.
 
 Setup:
    If you want to run the algorithm, you should do:
