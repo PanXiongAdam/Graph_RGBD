@@ -1,2 +1,24 @@
-# Graph_RGBD
-GRAPH-BASED RGB-D IMAGE SEGMENTATION USING COLOR-DIRECTIONAL-REGION MERGING
+Title: Graph-based RGB-D Image Segmentation Using Color-directional-region Merging
+
+If you use this method in your research please cite the Paper
+@inproceedings{Pan, 
+author = {X. {Pan} and Z. {Zhang} and Y. {Liu} and C. {Yang} and Q. {Chen} and L. {Cheng} and J. {Lin} and R. {Chen}}, 
+title={Graph-based RGB-D Image Segmentation Using Color-directional-region Merging}, 
+year={2019}, 
+pages={2417-2421}, 
+}
+
+Setup:
+   If you want to run the algorithm, you should do:
+      1. create the folder of image, 'images' is the folder's name
+      2. create the folder of normal, 'normal' is the folder's name
+      3. the extension of data must be '.mat', and the name of the variable is 'normal' in the normal data
+      4. the extension of data must be '.mat', and the name of the variable is 'image' in the image data
+
+
+  the paramter denotes:
+     varepsilon: the threshold value T in the equation (6)
+     sigma      :  the paramter of bi-semi-gaussian
+     beta        :  the variable of v in the equation (4)
+
+Note: if it isn't running, you should set the System environment with python and install cycler,numpy,opencv,scikit_image,scipy and pillow. My python version is 3.6
